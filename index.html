@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css3?family=Space+Grotesk:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <a href="https://fandomcolors.com/dragon-ball-cheelai-color-codes/">Color Palette for when I change it</a>
     <header class="site-header">
         <a class="logo" href="#about">
             <span class="logo-initials">RV</span>
@@ -48,10 +49,62 @@
                 <a href="#projects" class="button">See my projects</a>
             </div>
          </section>
+
+         <!-- =====================================================
+            SKILLS
+            A FLEXBOX row that wraps onto new lines as needed
+         ======================================================-->
+         <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML 5</li>
+                <li>CSS3</li>
+                <li>Flexbox</li>
+                <li>CSS Grid</li>
+                <li>Responsive Design</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>VS Code</li>
+                <li>Cybersecurity Basics</li>
+            </ul>
+         </section>
+
+
+        <!-- =====================================================
+            PROJECTS
+            the card container uses CSS Grid with auto-fit. so the 
+            number of columns changes with the screen width WITHOUT 
+            any media queries
+            Each card uses FLEXBOX (column direction) so the 
+            "View project" link always sits at the bottom.
+         ======================================================-->
+         <section id="projects" class="projects">
+
+         </section>
+
+         
     </main>
 
-    <footer>
+    <footer id="contact" class="site-footer">
+        <!-- =====================================================
+            FOOTER
+            Uses CSS Grid with three equal columns.
+            on small screens it stacks into a single colunm.
+         ======================================================-->
+         <div class="footer-grid">
 
+            <!-- Column 1: Contact -->
+
+            <!-- Column 2: Program Information -->
+
+            <!-- Column 3: Goals and credentials -->
+
+            <!-- Bottom bar: Flexbox spreads these two items apart-->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ryan Vile. All rights reserved.</p>
+                <a href="#about">Back to top</a>
+            </div>
+         </div>
     </footer>
 </body>
 </html>
