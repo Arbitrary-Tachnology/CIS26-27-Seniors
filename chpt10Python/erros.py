@@ -1,0 +1,23 @@
+# ==============================
+# errors.py -- "Break on purpose"
+# ==============================
+
+# -- Warm-up: A program that works
+# print("Hello, World!")
+
+#-- Experiment 1: SYNTAX ERROR (translation-time) -----
+# print("Hello, World!)
+
+#-- Experiment 2: SYNTAX ERROR ------
+# print(Hello, World!)
+
+#-- Experiment 3: Name Error ----------
+# Print("Hello, World!")
+
+#-- Experiment 4: Inproper Indentation
+# print("Hello")
+#    print("World!")
+
+#-- Experiment 5: Zero Division Error------
+# print("About to divide")
+# print(1 / 0)
